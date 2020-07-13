@@ -1,5 +1,5 @@
 const lectureRoutes = require('./lectureRoutes')
-const studentRoutes = require('./lectureRoutes')
+const studentRoutes = require('./studentRoutes')
 const teacherRoutes = require('./teacherRoutes')
 
 module.exports = (app) => {
