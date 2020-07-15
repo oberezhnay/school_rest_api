@@ -1,9 +1,8 @@
-const { Schema, model, Types} = require('mongoose')
+const { Schema, model } = require('mongoose');
 
 const StudentSchema = new Schema({
-    firstName: {type: String, required: true},
-    lastName: {type: String, required: true},
-    subjects: [{type: Types.ObjectId, ref:'Lecture'}]
-})
+  firstName: { type: String, required: true },
+  lastName: { type: String, required: true },
+});
 
-module.exports = model('Student', StudentSchema)
+module.exports = model('Student', StudentSchema);
